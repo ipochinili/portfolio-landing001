@@ -1,1 +1,91 @@
 
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: "Tahoma", sans-serif;
+	color: #000;
+	margin: 0;
+}
+img {
+	max-width: 100%;
+}
+.header {
+	padding: 77px 0 96px;
+}
+.header-text__title {
+	font-size: 48px;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+.header-text__subtitle {
+	font-size: 30px;
+	margin-bottom: 35px;
+}
+.header-text__desc {
+	font-size: 18px;
+	line-height: 27px;
+	margin-bottom: 47px;
+}
+.header-text__price {
+	font-size: 48px;
+	color: #313131;
+	margin-bottom: 53px;
+}
+.button{
+	background-color: #f15921;
+	border: 2px solid transparent;
+	border-radius: 5px;
+	color: #fff;
+	padding: 22px 43px;
+	font-size: 24px;
+	font-weight: 700;
+	margin-right: 40px;
+	margin-bottom: 10px;
+}
+.button-o {
+	background-color: transparent;
+	border: 2px solid #f15921;
+	color: #f15921;
+}
+
+/*2 секция преимущества*/
+
+.features {
+	background-color: #f2f2f2;
+	padding: 89px 0 100px;
+	text-align: center;
+	margin-bottom: 90px;
+}
+.section-title {
+	margin-bottom: 91px;
+	font-size: 30px;
+	font-weight: 700;
+}
+.features__img {
+	min-height: 55px;
+}
+
+.features__text {
+	font-size: 18px;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
+
+/*3-я секция покупатели*/
+
+.buyer {
+	text-align: center;
+}
+.buyer__img {
+	margin: 20px auto;
+	max-width: 280px;
+}
+.buyer__img img {
+	max-width: 100%;
+}
+
+
+
+
+
